@@ -1,11 +1,15 @@
-<!DOCTYPE html>
+<h2>Export Data Page</h2>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta chatset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Automate The Boring Stuff With Django</title>
 </head>
 <body>
-    <h3>Homepage</h3>
+    <h3> Homepage </h3>
+    <br>
+    <a href="{% url 'import_data' %}"> Import Data </a>
+    <a href="{% url 'export_data' %}"> Export Data </a>
+
 </body>
 </html>
